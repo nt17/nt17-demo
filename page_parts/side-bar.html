@@ -1,0 +1,9 @@
+<div>
+    <section id="sidebard2">
+        <ul class="style1">
+            <li ng-repeat="element in tabCtrl.SIDE_ELEMENT" ng-class="first">
+                <a href="#{{element.id}}" ng-click="tabCtrl.selectTab(element)">{{element.name}}</a>
+            </li>
+        </ul>
+    </section>
+</div>

@@ -1,0 +1,11 @@
+<!-- Image Gallery  -->
+<div ng-show="ikuGalleryCtrl.images.length">
+  <ul class="img-thumbnails clearfix">
+    <li class="small-image pull-left thumbnail" ng-repeat="image in ikuGalleryCtrl.images">
+      <img ng-src="{{image.small}}" ng-mouseover ="ikuGalleryCtrl.setCurrent(image.number)" />
+    </li>
+  </ul>
+  <div class="img-wrap">
+    <img ng-src="{{ikuGalleryCtrl.images[ikuGalleryCtrl.current].normal}}" />
+  </div>
+</div>
