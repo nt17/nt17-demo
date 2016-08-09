@@ -1,0 +1,11 @@
+<!-- Image Gallery  -->
+<div ng-show="galleryCtrl.images.length">
+  <ul class="img-thumbnails clearfix">
+    <li class="small-image pull-left thumbnail" ng-repeat="image in galleryCtrl.images">
+      <img ng-src="{{image.small}}" ng-mouseover ="galleryCtrl.setCurrent(image.number)" />
+    </li>
+  </ul>
+  <div class="img-wrap">
+    <img ng-src="{{galleryCtrl.images[galleryCtrl.current].normal}}" />
+  </div>
+</div>

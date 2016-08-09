@@ -1,0 +1,11 @@
+<span class="toggle" ng-click="tabCtrl.setPanel()">
+</span>
+<div class="{{tabCtrl.showPanel}}">
+    <nav id="nav">
+        <ul>
+            <li ng-repeat="element in tabCtrl.NAV_ELEMENT" ng-class="{active: tabCtrl.isSelected(element)}" ng-click="tabCtrl.setPanel()">
+                <a href="#{{element.id}}" ng-click="tabCtrl.selectTab(element)">{{element.name}}</a>
+            </li>
+        </ul>
+    </nav>
+</div>
