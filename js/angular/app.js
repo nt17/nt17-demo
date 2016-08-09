@@ -311,12 +311,12 @@
             link: 'home.html'
         },
         CONFERENCE_PROGRAM: {
-            name: 'Conference Program',
+            name: 'Program',
             id: "conference_program",
             link: 'conference-program.html'
         },
         CALL_FOR_PAPERS: {
-            name: 'Call for Papers',
+            name: 'Abstract Submission',
             id: "call_for_papers",
             link: 'call-for-papers.html'
         },

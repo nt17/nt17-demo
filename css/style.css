@@ -2056,6 +2056,12 @@ ul.style3 .first {
 
 /*********************************************************************************/
 
+#header:before {
+    content: url(../images/nt17_200.png);
+    float: left;
+    margin: 0 0 20em 0;
+}
+
 #header {
     position: relative;
     text-align: center;
