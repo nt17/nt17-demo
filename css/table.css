@@ -46,7 +46,7 @@
 }.table tr:hover td{
  
 }
-.table tr:nth-child(odd){ background-color:#fff1d6; }
+.table tr:nth-child(odd){ background-color:#F5D209; }
 .table tr:nth-child(even)    { background-color:#ffffff; }
 .table td{
  vertical-align:middle;
@@ -68,11 +68,11 @@
  border-width:0px 0px 0px 0px;
 }
 .table tr:first-child td{
-  background:-o-linear-gradient(bottom, #d8a06c 5%, #d8a06c 100%); background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d8a06c), color-stop(1, #d8a06c) );
- background:-moz-linear-gradient( center top, #d8a06c 5%, #d8a06c 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8a06c", endColorstr="#d8a06c"); background: -o-linear-gradient(top,#d8a06c,d8a06c);
+  background:-o-linear-gradient(bottom, #00A651 5%, #00A651 100%); background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00A651), color-stop(1, #00A651) );
+ background:-moz-linear-gradient( center top, #00A651 5%, #00A651 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00A651", endColorstr="#00A651"); background: -o-linear-gradient(top,#00A651,00A651);
 
- background-color:#d8a06c;
+ background-color:#00A651;
  border:0px solid #000000;
  text-align:center;
  border-width:0px 0px 1px 1px;
@@ -82,11 +82,11 @@
  color:#ffffff;
 }
 .table tr:first-child:hover td{
- background:-o-linear-gradient(bottom, #d8a06c 5%, #d8a06c 100%); background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d8a06c), color-stop(1, #d8a06c) );
- background:-moz-linear-gradient( center top, #d8a06c 5%, #d8a06c 100% );
- filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#d8a06c", endColorstr="#d8a06c"); background: -o-linear-gradient(top,#d8a06c,d8a06c);
+ background:-o-linear-gradient(bottom, #00A651 5%, #00A651 100%); background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00A651), color-stop(1, #00A651) );
+ background:-moz-linear-gradient( center top, #00A651 5%, #00A651 100% );
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#00A651", endColorstr="#00A651"); background: -o-linear-gradient(top,#00A651,00A651);
 
- background-color:#d8a06c;
+ background-color:#00A651;
 }
 .table tr:first-child td:first-child{
  border-width:0px 0px 1px 0px;
