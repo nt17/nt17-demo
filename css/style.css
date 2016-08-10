@@ -2518,7 +2518,7 @@ content-part {
     display: table;
     clear: both;
 }
-img .twocols_img {
+.twocols_group > div img
     width: auto !important; /*override the width below*/
     width: 25%;
     max-width: 100%;
@@ -2526,7 +2526,13 @@ img .twocols_img {
 }
 @media screen and (max-width: 480px) {
     .twocols_left, 
-    .twocols_right {
+    .twocols_left30,
+    .twocols_left50,
+    .twocols_left70,
+    .twocols_right,
+    .twocols_right30,
+    .twocols_right50,
+    .twocols_right70 {
         float: none;
         width: auto;
     }
