@@ -2056,11 +2056,6 @@ ul.style3 .first {
 
 /*********************************************************************************/
 
-#header:before {
-    content: url(../images/nt17_200.png);
-    float: left;
-}
-
 #header {
     position: relative;
     text-align: center;
@@ -2120,6 +2115,10 @@ ul.style3 .first {
     background: #FFF
 }
 
+side-bar:before {
+    content: url(../images/nt17_200.png);
+    float: left;
+}
 side-bar {
     width: 25%;
 }
