@@ -236,7 +236,7 @@
         HOME: {
             name: 'Home',
             id: "home",
-            link: 'index.html'
+            link: 'home.html'
         },
 /*        WORKSHOPS: {
             name: 'Workshops',
