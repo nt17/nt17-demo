@@ -2117,7 +2117,6 @@ ul.style3 .first {
 
 side-bar:before {
     content: url(../images/nt17_200.png);
-    float: left;
 }
 side-bar {
     width: 25%;
