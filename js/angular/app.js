@@ -320,11 +320,11 @@
         }
     };
     NAV_ELEMENT = {
-/*        HOME: {
+        HOME: {
             name: 'Home',
             id: "home",
             link: 'home.html'
-        },*/
+        },
         CONFERENCE_PROGRAM: {
             name: 'Program',
             id: "conference_program",
