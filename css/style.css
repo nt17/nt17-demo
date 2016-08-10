@@ -2472,3 +2472,28 @@ content-part {
 	padding: 6px 10px 6px 6px;
 	vertical-align: middle;
 }
+
+.twocols_left {
+    float: left;
+    width: 50%;
+}
+.twocols_right {
+    float: right;
+    width: 50%;
+}
+.twocols_group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img .twocols_img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 480px) {
+    .twocols_left, 
+    .twocols_right {
+        float: none;
+        width: auto;
+    }
+}
