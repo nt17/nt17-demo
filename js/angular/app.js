@@ -238,11 +238,11 @@
             id: "home",
             link: 'index.html'
         },
-        WORKSHOPS: {
+/*        WORKSHOPS: {
             name: 'Workshops',
             id: "workshops",
             link: 'workshops.html'
-        },
+        },*/
         COUNTRY_AND_CITY: {
             name: "Location",
             id: "country_and_city",
