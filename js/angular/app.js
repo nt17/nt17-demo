@@ -233,12 +233,12 @@
         };
     });
     SIDE_ELEMENT = {
-/*        HOME: {
+        HOME: {
             name: 'Home',
             id: "home",
             link: 'index.html'
         },
-        WORKSHOPS: {
+/*        WORKSHOPS: {
             name: 'Workshops',
             id: "workshops",
             link: 'workshops.html'
@@ -320,11 +320,11 @@
         }
     };
     NAV_ELEMENT = {
-        HOME: {
+/*        HOME: {
             name: 'Home',
             id: "home",
             link: 'home.html'
-        },
+        },*/
         CONFERENCE_PROGRAM: {
             name: 'Program',
             id: "conference_program",
