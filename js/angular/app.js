@@ -233,75 +233,90 @@
         };
     });
     SIDE_ELEMENT = {
+        HOME: {
+            name: 'Home',
+            id: "home",
+            link: 'index.html'
+        },
         WORKSHOPS: {
             name: 'Workshops',
             id: "workshops",
             link: 'workshops.html'
         },
-        CALL_FOR_TOOL_DEMOS: {
-            name: 'Call for Tool Demos',
-            id: "call_for_tool_demos",
-            link: 'call-for-tool-demos.html'
+        COUNTRY_AND_CITY: {
+            name: "Location",
+            id: "country_and_city",
+            link: 'country-and-city.html'
         },
-        WOMEN_IN_SE: {
-            name: 'Track on Women in Software Architecture',
-            id: "women_in_se",
-            link: 'women-in-se.html'
-        },
-        SUBMISSION: {
-            name: 'Submission',
-            id: "submission",
-            link: 'submission.html'
-        },
-        KEYNOTES: {
-            name: 'Keynotes',
-            id: "keynotes",
-            link: 'keynotes.html'
-        },
-        REGISTRATION: {
-            name: 'Registration',
-            id: "registration",
-            link: 'registration.html'
-        },
-        ORGANIZATION: {
-            name: 'Organization',
-            id: "organization",
-            link: 'organization.html'
-        },
-        PROGRAM_COMMITTEE: {
-            name: 'Program Committee',
-            id: "program_committee",
-            link: 'program-committee.html'
-        },
-        IMPORTANT_DATES: {
-            name: 'Important Dates',
-            id: "important_dates",
-            link: 'important-dates.html'
-        },
-        ACCOMMODATION: {
-            name: 'Accommodation',
-            id: "accommodation",
-            link: 'accommodation.html'
+        VENUE: {
+            name: 'Venue',
+            id: "venue",
+            link: 'venue.html'
         },
         TRAVEL: {
             name: 'Travel',
             id: "travel",
             link: 'travel.html'
         },
+        ACCOMMODATION: {
+            name: 'Accommodation',
+            id: "accommodation",
+            link: 'accommodation.html'
+        },
+        IMPORTANT_DATES: {
+            name: 'Important Dates',
+            id: "important_dates",
+            link: 'important-dates.html'
+        },
+        REGISTRATION: {
+            name: 'Registration',
+            id: "registration",
+            link: 'registration.html'
+        },
+        PAYMENT: {
+            name: 'Payment',
+            id: "payment",
+            link: 'payment.html'
+        },
+        SUBMISSION: {
+            name: 'Abstract Submission',
+            id: "submission",
+            link: 'submission.html'
+        },
+        KEYNOTES: {
+            name: 'Program',
+            id: "keynotes",
+            link: 'keynotes.html'
+        },
+        CALL_FOR_TOOL_DEMOS: {
+            name: 'Sattellites',
+            id: "call_for_tool_demos",
+            link: 'call-for-tool-demos.html'
+        },
+        SPONSORSHIP_PACKAGES: {
+            name: "Sponsors/Exhibitions",
+            id: "sponsorship_packages",
+            link: 'sponsorship-packages.html'
+        },
+        PROGRAM_COMMITTEE: {
+            name: 'NT Charter',
+            id: "program_committee",
+            link: 'program-committee.html'
+        },
         PREVIOUS_YEARS: {
-            name: 'Previous Years',
+            name: 'NT Conferences',
             id: "previous_years",
             link: 'previous-years.html'
         },
-        COUNTRY_AND_CITY: {
-            name: "Country and City",
-            id: "country_and_city",
-            link: 'country-and-city.html'
-        },
-        SPONSORSHIP_PACKAGES: {
-            name: "Sponsorship Packages",
-            id: "sponsorship_packages",
-            link: 'sponsorship-packages.html'
+        ORGANIZATION: {
+            name: 'Contact Us',
+            id: "organization",
+            link: 'organization.html'
+/*        },
+        WOMEN_IN_SE: {
+            name: 'Track on Women in Software Architecture',
+            id: "women_in_se",
+            link: 'women-in-se.html'*/
         }
     };
     NAV_ELEMENT = {
