@@ -2115,11 +2115,11 @@ ul.style3 .first {
     background: #FFF
 }
 
-side-bar:before {
-    content: url(../images/nt17_200.png);
-}
 side-bar {
     width: 25%;
+}
+side-bar div:before {
+    content: url(../images/nt17_200.png);
 }
 
 content-part {
