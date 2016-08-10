@@ -233,12 +233,12 @@
         };
     });
     SIDE_ELEMENT = {
-        HOME: {
+/*        HOME: {
             name: 'Home',
             id: "home",
             link: 'index.html'
         },
-/*        WORKSHOPS: {
+        WORKSHOPS: {
             name: 'Workshops',
             id: "workshops",
             link: 'workshops.html'
