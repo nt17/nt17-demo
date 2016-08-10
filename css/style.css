@@ -2481,6 +2481,30 @@ content-part {
     float: right;
     width: 50%;
 }
+.twocols_left50 {
+    float: left;
+    width: 50%;
+}
+.twocols_right50 {
+    float: right;
+    width: 50%;
+}
+.twocols_left30 {
+    float: left;
+    width: 30%;
+}
+.twocols_right70 {
+    float: right;
+    width: 70%;
+}
+.twocols_left70 {
+    float: left;
+    width: 70%;
+}
+.twocols_right30 {
+    float: right;
+    width: 30%;
+}
 .twocols_group:after {
     content:"";
     display: table;
