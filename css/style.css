@@ -2518,7 +2518,7 @@ content-part {
     display: table;
     clear: both;
 }
-.twocols_group > div img
+.twocols_group > div > img
     width: auto !important; /*override the width below*/
     width: 25%;
     max-width: 100%;
