@@ -278,10 +278,10 @@
             id: "payment",
             link: 'payment.html'
         },
-        SUBMISSION: {
+        CALL_FOR_PAPERS: {
             name: 'Abstract Submission',
-            id: "submission",
-            link: 'submission.html'
+            id: "call_for_papers",
+            link: 'call-for-papers.html'
         },
         CONFERENCE_PROGRAM: {
             name: 'Program',
