@@ -97,6 +97,12 @@
             templateUrl: "tabs/registration.html"
         };
     });
+    app.directive('payment', function () {
+        return {
+            restrict: 'E',
+            templateUrl: "tabs/payment.html"
+        };
+    });
     app.directive('venue', function () {
         return {
             restrict: 'E',
