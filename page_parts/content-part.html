@@ -1,7 +1,7 @@
 <a name="{{tabCtrl.currentTab.id}}"></a>
-<home ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.HOME || SIDE_ELEMENT.HOME)"></home>
-<conference-program ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.CONFERENCE_PROGRAM || tabCtrl.SIDE_ELEMENT.CONFERENCE_PROGRAM)"></conference-program>
-<call-for-papers ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.CALL_FOR_PAPERS || SIDE_ELEMENT.CALL_FOR_PAPERS)"></call-for-papers>
+<home ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.HOME) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.HOME)"></home>
+<conference-program ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.CONFERENCE_PROGRAM) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.CONFERENCE_PROGRAM)"></conference-program>
+<call-for-papers ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.CALL_FOR_PAPERS) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.CALL_FOR_PAPERS)"></call-for-papers>
 <workshops ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.WORKSHOPS)"></workshops>
 <call-for-tool-demos ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.CALL_FOR_TOOL_DEMOS)"></call-for-tool-demos>
 <women-in-se ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.WOMEN_IN_SE)"></women-in-se>
@@ -11,7 +11,7 @@
 <program-committee ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.PROGRAM_COMMITTEE)"></program-committee>
 <important-dates ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.IMPORTANT_DATES)"></important-dates>
 <registration ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.REGISTRATION) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.REGISTRATION)"></registration>
-<venue ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.VENUE || tabCtrl.SIDE_ELEMENT.VENUE)"></venue>
+<venue ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.VENUE) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.VENUE)"></venue>
 <accommodation ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.ACCOMMODATION)"></accommodation>
 <travel ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.TRAVEL)"></travel>
 <previous-years ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.PREVIOUS_YEARS)"></previous-years>
