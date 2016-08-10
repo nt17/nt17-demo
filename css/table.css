@@ -46,7 +46,7 @@
 }.table tr:hover td{
  
 }
-.table tr:nth-child(odd){ background-color:#F5D209; }
+.table tr:nth-child(odd){ background-color:#fff1d6; }
 .table tr:nth-child(even)    { background-color:#ffffff; }
 .table td{
  vertical-align:middle;
