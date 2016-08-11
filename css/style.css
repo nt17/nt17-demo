@@ -2118,24 +2118,14 @@ ul.style3 .first {
 side-bar {
     width: 25%;
 }
-/*side-bar div:before {
+side-bar div:before {
     content: url(../images/nt17_200.png);
 }
-side-bar div:after {
+side-bar div section:before {
     content: "18TH INTERNATIONAL CONFERENCE ON THE SCIENCE AND APPLICATION OF NANOTUBES AND LOW-DIMENSIONAL MATERIALS\r\nBELO HORIZONTE, MINAS GERAIS, BRAZIL FROM 25 TO 30 OF JUNE, 2016";
     color: #00A651;
     font-weight: bold;
 }
-*/
-side-bar {
-    background-image: url(../images/nt17_200.png);
-    background-repeat: no-repeat;
-    height: 40px;
-    background-position: top center;
-    display:inline-block;
-    font:normal 13px arial, sans-serif;
-}
-
 
 
 content-part {
