@@ -7,14 +7,14 @@
 <women-in-se ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.WOMEN_IN_SE)"></women-in-se>
 <submission ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.SUBMISSION)"></submission>
 <keynotes ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.KEYNOTES)"></keynotes>
-<organization ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.ORGANIZATION)"></organization>
+<organization ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.ORGANIZATION) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.ORGANIZATION)"></organization>
 <program-committee ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.PROGRAM_COMMITTEE)"></program-committee>
-<important-dates ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.IMPORTANT_DATES)"></important-dates>
+<important-dates ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.IMPORTANT_DATES) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.IMPORTANT_DATES)"></important-dates>
 <registration ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.REGISTRATION) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.REGISTRATION)"></registration>
 <venue ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.VENUE) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.VENUE)"></venue>
 <accommodation ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.ACCOMMODATION)"></accommodation>
 <travel ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.TRAVEL)"></travel>
 <previous-years ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.PREVIOUS_YEARS)"></previous-years>
-<country-and-city ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.COUNTRY_AND_CITY)"></country-and-city>
+<country-and-city ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.COUNTRY_AND_CITY) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.COUNTRY_AND_CITY)"></country-and-city>
 <sponsorship-packages ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.SPONSORSHIP_PACKAGES)"></sponsorship-packages>
 <payment ng-show="tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.PAYMENT)"></payment>
