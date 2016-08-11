@@ -2121,12 +2121,6 @@ side-bar {
 side-bar div:before {
     content: url(../images/nt17_200.png);
 }
-side-bar div section:before {
-    content: "18th International Conference on the Science and Application of Nanotubes and Low-Dimensional Materials - Belo Horizonte, Minas Gerais, Brazil from 25 to 30 of june, 2016";
-    color: #00A651;
-    font-weight: bold;
-    align-items: center;
-}
 
 
 content-part {
