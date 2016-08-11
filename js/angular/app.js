@@ -336,7 +336,27 @@
             id: "home",
             link: 'home.html'
         },
-        CONFERENCE_PROGRAM: {
+        COUNTRY_AND_CITY: {
+            name: "Location",
+            id: "country_and_city",
+            link: 'country-and-city.html'
+        },
+        VENUE: {
+            name: 'Venue',
+            id: "venue",
+            link: 'venue.html'
+        },
+        IMPORTANT_DATES: {
+            name: 'Important Dates',
+            id: "important_dates",
+            link: 'important-dates.html'
+        },
+        ORGANIZATION: {
+            name: 'Contact Us',
+            id: "organization",
+            link: 'organization.html'
+        }
+/*        CONFERENCE_PROGRAM: {
             name: 'Program',
             id: "conference_program",
             link: 'conference-program.html'
@@ -350,12 +370,7 @@
             name: 'Registration',
             id: "registration",
             link: 'registration.html'
-        },
-        VENUE: {
-            name: 'Venue',
-            id: "venue",
-            link: 'venue.html'
-        }
+        }*/
     };
     var hostElements = [
         {
