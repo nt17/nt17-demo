@@ -294,11 +294,11 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
-/*        KEYNOTES: {
-            name: 'Program',
+        KEYNOTES: {
+            name: 'Advisory Board',
             id: "keynotes",
             link: 'keynotes.html'
-        },*/
+        },
         CALL_FOR_TOOL_DEMOS: {
             name: 'Sattellites',
             id: "call_for_tool_demos",
