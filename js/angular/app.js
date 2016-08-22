@@ -300,7 +300,7 @@
             link: 'keynotes.html'
         },
         CALL_FOR_TOOL_DEMOS: {
-            name: 'Sattellites',
+            name: 'Satellites',
             id: "call_for_tool_demos",
             link: 'call-for-tool-demos.html'
         },
