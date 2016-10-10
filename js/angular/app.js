@@ -295,7 +295,7 @@
             link: 'conference-program.html'
         },
         COMMITTEES: {
-            name: 'Advisory Board',
+            name: 'Committees',
             id: "committees",
             link: 'committees.html'
         },
