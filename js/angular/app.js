@@ -67,10 +67,10 @@
             templateUrl: "tabs/submission.html"
         };
     });
-    app.directive('keynotes', function () {
+    app.directive('committees', function () {
         return {
             restrict: 'E',
-            templateUrl: "tabs/keynotes.html"
+            templateUrl: "tabs/committees.html"
         };
     });
     app.directive('organization', function () {
@@ -294,10 +294,10 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
-        KEYNOTES: {
+        COMMITTEES: {
             name: 'Advisory Board',
-            id: "keynotes",
-            link: 'keynotes.html'
+            id: "committees",
+            link: 'committees.html'
         },
         CALL_FOR_TOOL_DEMOS: {
             name: 'Satellites',
