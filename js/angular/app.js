@@ -381,18 +381,30 @@
     ];
     var sponsorElements = [
         {
-			name: 'THY',
-            link: 'https://www4.thy.com/TKC/app/main?language=en',
-            image: 'images/sponsors/thy-alliance.jpg'
-	    }, {
-            name: 'Havelsan',
-            link: 'http://www.havelsan.com.tr/ENG/Main',
-            image: 'images/sponsors/havelsan.jpg'
-        }, {
-            name: 'Cybersoft',
-            link: 'http://www.cybersoft.com.tr/ENG/?q=node',
-            image: 'images/sponsors/cybersoft.png'
-        }
+	    name: 'FAPEMIG',
+            link: 'http://www.fapemig.br/en/',
+            image: 'images/sponsors/fapemig.png'
+	 },
+	 {
+            name: 'CNPQ',
+            link: 'http://cnpq.br/',
+            image: 'images/sponsors/cnpq.jpg'
+         },
+	 {
+            name: 'CAPES',
+            link: 'http://www.capes.gov.br/',
+            image: 'images/sponsors/capes.jpg'
+         },
+	 {
+            name: 'FINEP',
+            link: 'http://www.finep.gov.br/',
+            image: 'images/sponsors/finep.jpg'
+	 },
+	 {
+	    name: 'UFMG',
+            link: 'https://www.ufmg.br/',
+            image: 'images/sponsors/UFMG.png'
+	 }
     ];
     var gallery = [
         {
