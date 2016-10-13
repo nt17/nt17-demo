@@ -52,7 +52,7 @@
     app.directive('satelliteSymposia', function () {
         return {
             restrict: 'E',
-            templateUrl: "tabs/satellite-symposia"
+            templateUrl: "tabs/satellite-symposia.html"
         };
     });
     app.directive('womenInSe', function () {
