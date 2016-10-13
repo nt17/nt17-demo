@@ -299,7 +299,7 @@
             id: "committees",
             link: 'committees.html'
         },
-        SATELLITE_SYPOSIA: {
+        SATELLITE_SYMPOSIA: {
             name: 'Satellite Symposia',
             id: "satellite-symposia",
             link: 'satellite-syposia.html'
