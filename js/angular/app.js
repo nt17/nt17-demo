@@ -79,10 +79,10 @@
             templateUrl: "tabs/organization.html"
         };
     });
-    app.directive('programCommittee', function () {
+    app.directive('ntCharter', function () {
         return {
             restrict: 'E',
-            templateUrl: "tabs/program-committee.html"
+            templateUrl: "tabs/nt-charter.html"
         };
     });
     app.directive('importantDates', function () {
@@ -309,10 +309,10 @@
             id: "sponsorship_packages",
             link: 'sponsorship-packages.html'
         },
-        PROGRAM_COMMITTEE: {
+        NT_CHARTER: {
             name: 'NT Charter',
-            id: "program_committee",
-            link: 'program-committee.html'
+            id: "nt-charter",
+            link: 'nt-charter.html'
         },
         PREVIOUS_YEARS: {
             name: 'NT Conferences',
