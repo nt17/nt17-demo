@@ -49,10 +49,10 @@
             templateUrl: "tabs/workshops.html"
         };
     });
-    app.directive('callForToolDemos', function () {
+    app.directive('satelliteSymposia', function () {
         return {
             restrict: 'E',
-            templateUrl: "tabs/call-for-tool-demos.html"
+            templateUrl: "tabs/satellite-symposia"
         };
     });
     app.directive('womenInSe', function () {
