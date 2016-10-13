@@ -275,15 +275,17 @@
             link: 'important-dates.html'
         },
         REGISTRATION: {
-            name: 'Registration',
+            name: 'Registration/Payment',
             id: "registration",
             link: 'registration.html'
         },
+/*	    
         PAYMENT: {
             name: 'Payment',
             id: "payment",
             link: 'payment.html'
         },
+*/	   
         CALL_FOR_PAPERS: {
             name: 'Abstract Submission',
             id: "call_for_papers",
