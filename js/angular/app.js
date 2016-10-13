@@ -299,10 +299,10 @@
             id: "committees",
             link: 'committees.html'
         },
-        CALL_FOR_TOOL_DEMOS: {
-            name: 'Satellites',
-            id: "call_for_tool_demos",
-            link: 'call-for-tool-demos.html'
+        SATELLITE_SYPOSIA: {
+            name: 'Satellite Symposia',
+            id: "satellite-symposia",
+            link: 'satellite-syposia.html'
         },
         SPONSORSHIP_PACKAGES: {
             name: "Sponsors/Exhibitions",
