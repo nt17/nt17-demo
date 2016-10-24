@@ -260,7 +260,7 @@
             link: 'venue.html'
         },
         TRAVEL: {
-            name: 'Travel',
+            name: 'Travel Information',
             id: "travel",
             link: 'travel.html'
         },
