@@ -2515,13 +2515,13 @@ content-part {
 .twocols_left15 {
 	float:left;
 	width: 15%;
-	padding-right: 2px;
+	padding-right: 5px;
 }
 
 .twocols_right85{
 	float: right;
 	width: 85%;
-	padding-left: 2px;
+	padding-left: 5px;
 }
 .twocols_group:after {
     content:"";
