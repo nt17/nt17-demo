@@ -2511,6 +2511,18 @@ content-part {
     width: 30%;
     padding-left: 5px;
 }
+
+.twocols_left15 {
+	float:left;
+	width: 15%;
+	padding-right: 2px;
+}
+
+.twocols_right85{
+	float: right;
+	width: 85%;
+	padding-left: 2px;
+}
 .twocols_group:after {
     content:"";
     display: table;
