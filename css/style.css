@@ -81,7 +81,8 @@ p li {
 }
 
 p1{
-	 line-height: 120%;
+    margin-bottom: 0em; 
+    line-height: 180%;
 }
 
 a {
