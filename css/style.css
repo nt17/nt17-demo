@@ -2528,6 +2528,8 @@ content-part {
 	float:left;
 	width: 15%;
 	padding-right: 5px;
+	margin-top: 1px;
+	padding-top: 1px;
 }
 
 .twocols_right85{
