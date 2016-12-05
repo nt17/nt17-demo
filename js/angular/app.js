@@ -275,7 +275,7 @@
             link: 'important-dates.html'
         },
         REGISTRATION: {
-            name: 'Registration/Abstract Submission/Payment',
+            name: 'Registration/Payment/Abstract Submission',
             id: "registration",
             link: 'registration.html'
         },
