@@ -275,7 +275,7 @@
             link: 'important-dates.html'
         },
         REGISTRATION: {
-            name: 'Registration/Payment',
+            name: 'Registration/Abstract Submission/Payment',
             id: "registration",
             link: 'registration.html'
         },
@@ -285,12 +285,13 @@
             id: "payment",
             link: 'payment.html'
         },
-*/	   
+	   
         CALL_FOR_PAPERS: {
             name: 'Abstract Submission',
             id: "call_for_papers",
             link: 'call-for-papers.html'
         },
+*/
         CONFERENCE_PROGRAM: {
             name: 'Program',
             id: "conference_program",
