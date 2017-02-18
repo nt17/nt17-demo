@@ -37,6 +37,13 @@
             templateUrl: "tabs/conference-program.html"
         };
     });
+	
+    app.directive('socialProgram', function () {
+        return {
+            restrict: 'E',
+            templateUrl: "tabs/social-program.html"
+        };
+    });
     app.directive('callForPapers', function () {
         return {
             restrict: 'E',
