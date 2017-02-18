@@ -293,9 +293,14 @@
         },
 */
         CONFERENCE_PROGRAM: {
-            name: 'Program',
+            name: 'Scientific Program',
             id: "conference_program",
             link: 'conference-program.html'
+        },
+	SOCIAL_PROGRAM: {
+            name: 'Social Program',
+            id: "social_program",
+            link: 'social-program.html'
         },
         COMMITTEES: {
             name: 'Committees',
