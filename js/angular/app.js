@@ -252,11 +252,13 @@
         };
     });
     SIDE_ELEMENT = {
+	    /*
 	INVITATION_LETTER: {
             name: 'NT17 Invitation Letter',
             id: "invitation_letter",
             link: 'registration.html'
         }, 
+	*/
         HOME: {
             name: 'Home',
             id: "home",
