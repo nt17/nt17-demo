@@ -1,4 +1,5 @@
 <a name="{{tabCtrl.currentTab.id}}"></a>
+<invitation-letter ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.INVITATION_LETTER) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.INVITATION_LETTER)"></invitation-letter>
 <home ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.HOME) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.HOME)"></home>
 <conference-program ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.CONFERENCE_PROGRAM) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.CONFERENCE_PROGRAM)"></conference-program>
 <social-program ng-show="tabCtrl.isSelected(tabCtrl.NAV_ELEMENT.SOCIAL_PROGRAM) || tabCtrl.isSelected(tabCtrl.SIDE_ELEMENT.SOCIAL_PROGRAM)"></social-program>
