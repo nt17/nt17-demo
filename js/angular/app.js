@@ -25,6 +25,12 @@
             templateUrl: "page_parts/content-part.html"
         };
     });
+    app.directive('invitationLetter', function () {
+        return {
+            restrict: 'E',
+            templateUrl: "tabs/registration.html"
+        };
+    });
     app.directive('home', function () {
         return {
             restrict: 'E',
@@ -246,6 +252,11 @@
         };
     });
     SIDE_ELEMENT = {
+	INVITATION_LETTER: {
+            name: 'NT17 Invitation Letter',
+            id: "invitation_letter",
+            link: 'registration.html'
+        }, 
         HOME: {
             name: 'Home',
             id: "home",
