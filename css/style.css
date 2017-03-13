@@ -2069,7 +2069,7 @@ ul.style3 .first {
 /*********************************************************************************/
 
 #header {
-    position: bottom;
+    position: relative;
     text-align: center;
     background: url(../images/MillieDresselhaus.jpg) no-repeat center;
     background-size: cover;
