@@ -2069,9 +2069,9 @@ ul.style3 .first {
 /*********************************************************************************/
 
 #header {
-    position: relative;
+    position: bottom;
     text-align: center;
-    background: url(../images/Millie.jpg) no-repeat center;
+    background: url(../images/MillieDresselhaus.jpg) no-repeat center;
     background-size: cover;
 }
 
