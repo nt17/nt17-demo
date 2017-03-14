@@ -125,7 +125,7 @@
 
 		#navPanel .link
 		{
-			display: block;
+			display: none;
 			color: #888;
 			text-decoration: none;
 			height: 44px;
