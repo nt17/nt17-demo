@@ -120,12 +120,15 @@
 	#navPanel
 	{
 		background: #323338;
+		/* teste */
+		display: none;
 		
 	}
 
 		#navPanel .link
 		{
-			display: block;
+			/* display: block; */
+			display: none;
 			color: #888;
 			text-decoration: none;
 			height: 44px;
@@ -137,11 +140,13 @@
 			#navPanel .link:first-child
 			{
 				border-top: 0;
+				display: none;
 			}
 			
 			#navPanel .link.depth-0
 			{
 				color: #fff;
+				display: none;
 			}
 
 			#navPanel .indent-1 { display: inline-block; width: 1em; }
