@@ -81,7 +81,7 @@
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
-				display: none;
+				display: block;
 				padding: 1em 1.5em;
 				letter-spacing: 1px;
 				text-decoration: none;
