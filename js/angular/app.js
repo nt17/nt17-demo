@@ -375,11 +375,18 @@
             id: "venue",
             link: 'venue.html'
         },
+	    CONFERENCE_PROGRAM: {
+            name: 'Program',
+            id: "conference_program",
+            link: 'conference-program.html'
+        },
+	    /*
         IMPORTANT_DATES: {
             name: 'Important Dates',
             id: "important_dates",
             link: 'important-dates.html'
         },
+	*/
         ORGANIZATION: {
             name: 'Contact Us',
             id: "organization",
