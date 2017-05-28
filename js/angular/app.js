@@ -380,19 +380,24 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
+	    SPONSORS: {
+            name: 'Sponsors',
+            id: "sponsors",
+            link: 'sponsorship_packages.html'
+        }
 	    /*
         IMPORTANT_DATES: {
             name: 'Important Dates',
             id: "important_dates",
             link: 'important-dates.html'
         },
-	*/
+	
         ORGANIZATION: {
             name: 'Contact Us',
             id: "organization",
             link: 'organization.html'
         }
-/*        CONFERENCE_PROGRAM: {
+       CONFERENCE_PROGRAM: {
             name: 'Program',
             id: "conference_program",
             link: 'conference-program.html'
