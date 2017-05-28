@@ -383,7 +383,7 @@
 	    SPONSORSHIP_PACKAGES: {
             name: 'Sponsors',
             id: "sponsorship_packages",
-            link: 'sponsorship_packages.html'
+            link: 'sponsorship-packages.html'
         }
 	    /*
         IMPORTANT_DATES: {
