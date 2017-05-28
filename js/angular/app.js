@@ -380,9 +380,9 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
-	    SPONSORS: {
+	    SPONSORSHIP_PACKAGES: {
             name: 'Sponsors',
-            id: "sponsors",
+            id: "sponsorship_packages",
             link: 'sponsorship_packages.html'
         }
 	    /*
