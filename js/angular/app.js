@@ -380,6 +380,11 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
+	    SATELLITE_SYMPOSIA:
+            name: 'Satellite',
+            id: "satellite-symposia",
+            link: 'satellite-symposia.html'
+        },
 	    SPONSORSHIP_PACKAGES: {
             name: 'Sponsors',
             id: "sponsorship_packages",
