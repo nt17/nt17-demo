@@ -380,7 +380,7 @@
             id: "conference_program",
             link: 'conference-program.html'
         },
-	    SATELLITE_SYMPOSIA:
+	    SATELLITE_SYMPOSIA:{
             name: 'Satellite',
             id: "satellite-symposia",
             link: 'satellite-symposia.html'
