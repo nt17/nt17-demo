@@ -2569,13 +2569,15 @@ content-part {
 }
 @media screen and (max-width: 480px) {
     .twocols_left, 
+    .twocols_left20, 
     .twocols_left30,
     .twocols_left50,
     .twocols_left70,
     .twocols_right,
     .twocols_right30,
     .twocols_right50,
-    .twocols_right70 {
+    .twocols_right70,
+    .twocols_right80{
         float: none;
         width: auto;
     }
