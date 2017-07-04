@@ -168,6 +168,11 @@ header .byline {}
     padding: 5px;
 }
 
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
 
 /*********************************************************************************/
 
