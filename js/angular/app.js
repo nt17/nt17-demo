@@ -202,29 +202,7 @@
             controllerAs: 'ikuGalleryCtrl'
         };
     });
-    //        app.directive('twitterPart', function (){
-    //           return {
-    //               restrict:'E',
-    //               templateUrl:'page_parts/twitter-part.html',
-    //               controller: function (){
-    //               this.a= "asd";
-    //               this.load = function(d, s, id) {
-    //                        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/
-    //                                        .test(d.location) ? 'http'
-    //                                        : 'https';
-    //                        if (!d.getElementById(id)) {
-    //                                js = d.createElement(s);
-    //                                js.id = id;
-    //                                js.src = p
-    //                                                + "://platform.twitter.com/widgets.js";
-    //                                fjs.parentNode
-    //                                                .insertBefore(js, fjs);
-    //                        }
-    //                };
-    //               },
-    //               controllerAs : 'twitCtrl',
-    //           } 
-    //        });
+    
     app.controller('tabController', function () {
         this.currentTab = NAV_ELEMENT.HOME;
         this.NAV_ELEMENT = NAV_ELEMENT;
@@ -352,11 +330,6 @@
             name: 'Contact Us',
             id: "organization",
             link: 'organization.html'
-/*        },
-        WOMEN_IN_SE: {
-            name: 'Track on Women in Software Architecture',
-            id: "women_in_se",
-            link: 'women-in-se.html'*/
         }
     };
     NAV_ELEMENT = {
